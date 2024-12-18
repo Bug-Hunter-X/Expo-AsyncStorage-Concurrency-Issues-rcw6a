@@ -1,0 +1,1 @@
+This error occurs when using AsyncStorage in Expo.  The problem is that AsyncStorage is not thread-safe and attempting to perform multiple operations concurrently might lead to unexpected behavior.  This can manifest as data corruption, incorrect values being returned, or even app crashes.
